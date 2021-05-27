@@ -4,8 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
-    "build": "electron-packager."
+    "start": "electron .",
+    "build": "electron-packager . Pomodoro --out=./builds"
     
   },
   "repository": "https://github.com/electron/electron-quick-start",
