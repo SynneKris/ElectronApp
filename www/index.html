@@ -5,15 +5,25 @@
 		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
 		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
 		<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-
-		<title>Hello World!</title>
-
-		<link rel="stylesheet" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">.
+	
+	<title>To do list</title>
+	<link rel="stylesheet" href="style.css">
 	</head>
-
 	<body>
-		<h1>my first electron app</h1>
-
-		<script src="script.js"></script>
+		<br>
+		<br>
+		<input type="date" name="dateofmonth" id="dateofmonth">
+		<br>
+		<br>
+		<h1>To Do List</h1>
+		
+			<input id="inputField" type="text"><button id="addToDo">+</button>
+			<div class="to-dos" id="toDoContainer"></div>
+			</div>
+		</div>
+		<br>
+		<img src="/www/images/todo.jpg" alt="" width="320" height="180">
+<script src="script.js"></script>
 	</body>
 </html>
