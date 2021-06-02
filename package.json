@@ -5,8 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . Pomodoro --out=./builds"
-    
+		"build-macOs": "electron-packager . Todo --out=./builds --overwrite --icon=./app_icons/Todo-icon.icns"  
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
