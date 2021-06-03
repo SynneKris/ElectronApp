@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
 html, body {
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(172, 228, 238);
     text-align: center;
 }
+
+h1 {
+    color: rgb(179, 131, 226); 
+    font-size: 4rem;
+    text-align: center;
+    opacity: 0.8;
+    text-transform: uppercase;
+  }
+  
 
 .container {
     width: 360px;
@@ -22,7 +37,7 @@ html, body {
 #addToDo {
     height: 50px;
     width: 50px;
-    color: rgb(121, 212, 233);
+    color: rgb(179, 131, 226); ;
     border: 1px solid black;
     vertical-align: middle;
     font-size: 30px;
@@ -37,3 +52,4 @@ html, body {
 .to-dos {
     margin-top: 25px;
 }
+
