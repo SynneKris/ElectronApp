@@ -53,3 +53,10 @@ h1 {
     margin-top: 25px;
 }
 
+/* image */
+img {
+    border-radius: 50%;
+    width: 220px;
+    height: 200px;
+  }
+
